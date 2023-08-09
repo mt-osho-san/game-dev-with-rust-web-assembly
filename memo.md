@@ -17,3 +17,8 @@
     - ?
 - #[wasm_bindgen(start)]でメインのエントリポイントを作成？
     - wasm.__wbindgen_start();で呼び出す、上記ので呼び出されるがわを定義？
+
+- ランタイムが存在しない？
+- なぜAsync/awaitはランタイムが必要？
+- spawn_localって何
+- 

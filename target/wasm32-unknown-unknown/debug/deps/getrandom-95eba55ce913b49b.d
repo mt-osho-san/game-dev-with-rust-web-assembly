@@ -1,0 +1,11 @@
+/Users/shoji/workspace/rust/game-dev-with-rust-web-assembly/target/wasm32-unknown-unknown/debug/deps/getrandom-95eba55ce913b49b.rmeta: /Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/lib.rs /Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error.rs /Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/util.rs /Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error_impls.rs /Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/js.rs
+
+/Users/shoji/workspace/rust/game-dev-with-rust-web-assembly/target/wasm32-unknown-unknown/debug/deps/libgetrandom-95eba55ce913b49b.rlib: /Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/lib.rs /Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error.rs /Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/util.rs /Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error_impls.rs /Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/js.rs
+
+/Users/shoji/workspace/rust/game-dev-with-rust-web-assembly/target/wasm32-unknown-unknown/debug/deps/getrandom-95eba55ce913b49b.d: /Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/lib.rs /Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error.rs /Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/util.rs /Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error_impls.rs /Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/js.rs
+
+/Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/lib.rs:
+/Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error.rs:
+/Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/util.rs:
+/Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/error_impls.rs:
+/Users/shoji/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.10/src/js.rs:
