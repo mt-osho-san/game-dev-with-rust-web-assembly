@@ -9,7 +9,6 @@ use std::sync::Mutex;
 use serde::Deserialize;
 use std::collections::HashMap;
 use gloo_utils::format::JsValueSerdeExt;
-use anyhow::{anyhow, Result;}
 
 #[macro_use]
 mod browser;
@@ -36,8 +35,9 @@ struct Cell {
 pub fn main_js() -> Result<(), JsValue> {
     console_error_panic_hook::set_once();
 
-    let window = web_sys::window().unwrap();
-    let document = window.document().unwrap();
+    let document = browser::document().expect("No Document Found");
+    let window = browser::window().expect("No Window Found");
+
     let canvas = document
         .get_element_by_id("canvas")
         .unwrap()
@@ -101,10 +101,13 @@ pub fn main_js() -> Result<(), JsValue> {
                 sprite.frame.h.into(),
             );
         }) as Box<dyn FnMut()>);
-        window.set_interval_with_callback_and_timeout_and_arguments_0(
-            interval_callback.as_ref().unchecked_ref(),
-            50,
-        );
+
+        browser::window()
+            .unwrap()
+            .set_interval_with_callback_and_timeout_and_arguments_0(
+                interval_callback.as_ref().unchecked_ref(),
+                50,
+            );
         interval_callback.forget();
     });
     Ok(())

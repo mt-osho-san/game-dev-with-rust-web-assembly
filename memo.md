@@ -22,3 +22,11 @@
 - なぜAsync/awaitはランタイムが必要？
 - spawn_localって何
 - 
+- dyn_intoはJSの動的型付けをRustの静的な型に変換
+- ?は何者？43p
+- anyhowクレーとは何者
+- そもそもクレーとってなんだ
+- マクロは何？
+- forgetって何
+- callbackなんだっけ
+- 
